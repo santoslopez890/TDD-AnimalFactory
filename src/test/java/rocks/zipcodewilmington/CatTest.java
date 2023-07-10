@@ -19,6 +19,8 @@ public class CatTest {
     // TODO - Create test to check Mammal inheritance; google search `java instanceof keyword`
 
 
+
+
     @Test
     public void constructorTest() {
         // Given (cat data)
@@ -39,5 +41,12 @@ public class CatTest {
         Assert.assertEquals(givenBirthDate, retrievedBirthDate);
         Assert.assertEquals(givenId, retrievedId);
     }
+    // TODO - Create tests for `void setName(String name)`
+    // TODO - Create tests for `speak`
+    // TODO - Create tests for `setBirthDate(Date birthDate)`
+    // TODO - Create tests for `void eat(Food food)`
+    // TODO - Create tests for `Integer getId()`
+    // TODO - Create test to check Animal inheritance; google search `java instanceof keyword`
+    // TODO - Create test to check Mammal inheritance; google search `java instanceof keyword`
 
 }
